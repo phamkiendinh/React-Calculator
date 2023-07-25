@@ -18,8 +18,10 @@ body {
 
 .Screen {
   overflow-x: auto;
-  height: 70px;
+  overflow-y: hidden;
+  height: 100px;
   max-height: 500px;
+  display: block;
 }
 .Numpad {
 
@@ -30,8 +32,13 @@ body {
   height: 50px;
   margin-bottom: 10px;
 }
+.numpad-button:hover {
+  color: red;
+  background-color: black;
+}
 
 
 #cal-symbol {
   -webkit-animation: alternate-reverse;
 }
+
